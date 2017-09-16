@@ -17,7 +17,7 @@ To use the plugin, there are a number of shortcodes currently available.  When s
 
 The CSS Grid is available, configure it use the following:
 
-'''
+```
 [mdw-row
   container=[true|false]
   classes="list of extra-classes"
@@ -27,7 +27,7 @@ The CSS Grid is available, configure it use the following:
   [mdw-col
     sizes="s12 m6 l6"]Column 2[/mdw-col]    
 [/mdw-row]
-'''
+```
 
 ### Carousel
 
@@ -35,7 +35,7 @@ The Carousel component is available for display.  When working with the Carousel
 
 #### Blocks
 
-'''
+```
 [mdw-carousel
   id="mycarousel"
   slider=[true | false]
@@ -47,11 +47,11 @@ The Carousel component is available for display.  When working with the Carousel
     <p>This is something for item 1</p>[/mdw-carousel-item]
     
 [/mdw-carousel]
-'''
+```
 
 #### Media
 
-'''
+```
 [mdw-carousel
   id="mycarousel"
   slider=[true | false]
@@ -59,11 +59,10 @@ The Carousel component is available for display.  When working with the Carousel
 ]
   [gallery sizes="[thumbnail|full" ids="###,###,###,###"]
 [/mdw-carousel]
-'''
+```
 
 #### Galleries
-
-'''
+```
 [mdw-carousel
   id="mycarousel"
   slider=[true | false]
@@ -73,7 +72,7 @@ The Carousel component is available for display.  When working with the Carousel
   [mdw-carousel-item]<img src=""/>[/mdw-carousel-item]
     
 [/mdw-carousel]
-'''
+```
 
 ### Collapsible
 
