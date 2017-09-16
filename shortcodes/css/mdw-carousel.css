@@ -1,0 +1,4 @@
+
+ul.indicators li.indicator-item:before { content: none; }
+ul.indicators li.indicator-item { background-color: rgba(0,0,0,0.2) !important; }
+ul.indicators li.indicator-item.active { background-color: rgba(0,0,0,0.6) !important; }
